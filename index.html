@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="caja_contenedora">
+        <div><h1>Payment form example</h1></div>
+        <div><h2>some fields are missing</h2></div>
+        <div class="card_control">
+            <form>
+               <label>card #
+                <input type="number" name="card_number" placeholder="xxxxxxxxxxxx" required size="12">
+               </label> 
+               <label>CVC
+                <input type="number" name="cvc" placeholder="0000" required size="4">
+               </label>
+               <label>Amount
+                <input type="number" placeholder="Amount" required>
+               </label>
+            </form>
+        </div>
+        <div class="personal_information">
+            <div class="information_left">
+                <label>First Name
+                    <input type="text" placeholder="Jhon" required>
+                </label>
+                <label>City
+                    <input type="text" placeholder="Miami" required>
+                </label>
+                <label>We accept:
+                    <input type="radio">
+                </label>
+            </div>
+            <div class="information_right">
+                 <label>Last Name 
+                       <input type="text" placeholder="Doe">
+                 </label>
+                 <label>State
+                       <input type="search" placeholder="pick a State" required>
+                 </label>
+                 <label>Postal Code 
+                       <input type="number" placeholder="xxxxx" required>
+                 </label>
+                 <label>Messaje
+                       <textarea></textarea>
+                 </label>
+            </div>
+        </div>
+        <div class="buttom">
+              <button>cancel</button>
+              <button>send</button>
+        </div>
+    </div>
+</body>
+</html>
