@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.caja_contenedora {
+    background-color: whitesmoke;
+    width: 800px;
+    height: 600px;
+    border: 3px solid grey;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.primera_caja {
+    background-color: rgb(212, 211, 211);
+    font-family: sans-serif; 
+}
+h1{
+    padding: 7px;
+    margin: 0;
+    font-size: 25px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.segunda_caja{
+    background-color: rgba(245, 142, 142, 0.67);
+    margin: 12px;
+    border-radius: 5px;
+}
+h2{
+    padding: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgba(104, 27, 27, 0.9);
+    text-transform: capitalize;
+}
+.card_control {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.input_1, .input_2, .input_3 {
+   color: red
+}
+
