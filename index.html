@@ -35,11 +35,14 @@
                 </div>
                 <div>
                     <label>City</label>
-                    <input type="text" placeholder="Miami" required>
+                    <input type="text" name="City" required>
                 </div>
-                <div>
+                <div class="radio">
                     <label>We accept:</label>
-                    <input type="radio">
+                    <input type="radio" name="card" value="visa">visa
+                    <input type="radio" name="card" value="mastercard">mastercard
+                    <input type="radio" name="card" value="amex">amex
+                    
                 </div>
             </div>
             <div class="information_right">
@@ -50,7 +53,11 @@
             <div id="state_pc">  
                 <div> 
                        <label>State</label>
-                       <input type="search" placeholder="pick a State" required>
+                       <select name="pick-state">
+                          <option value="state1">florida</option>
+                          <option value="state2">Atlanta</option>
+                          <option value="state3">Columbia</option>
+                       </select>
                 </div>
                 <div> 
                        <label>Postal Code</label>
@@ -59,13 +66,14 @@
             </div>  
                 <div>
                        <label>Messaje</label>
-                       <textarea></textarea>
+                       <textarea placeholder="Add any notes here." rows="4"></textarea>
                 </div> 
             </div>
         </div>
         <div class="buttom">
-              <button>cancel</button>
-              <button>send</button>
+              <button class="button_cancel">cancel</button>
+              <button class="button_send">send</button>
+              
         </div>
        </form>
      </div>
